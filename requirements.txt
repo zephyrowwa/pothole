@@ -3,5 +3,5 @@ pandas==2.0.3
 numpy==1.24.0
 torch==2.2.1
 Pillow==10.1.0
-opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
 ultralytics==8.2.26
