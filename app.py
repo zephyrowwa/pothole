@@ -4,6 +4,7 @@ import cv2
 import numpy as np
 from PIL import Image
 from ultralytics import YOLO
+import os
 
 def load_labels(path='labels.txt'):
     with open(path,'r') as f:
