@@ -5,13 +5,13 @@ import numpy as np
 from PIL import Image
 from ultralytics import YOLO
 
-def load_labels(path=r'D:\ery\School\Jupyter Notebooks\yolov11_streamlit\labels.txt'):
+def load_labels(path='labels.txt'):
     with open(path,'r') as f:
         return [line.strip() for line in f.readlines()]
     
 @st.cache_resource
 def load_model():
-    model = YOLO(r'D:\ery\School\Jupyter Notebooks\yolov11_streamlit\best.pt')
+    model = YOLO('best.pt')
     model.eval()
     return model
 
