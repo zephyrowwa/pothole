@@ -1,7 +1,4 @@
-bike
-bus
-car
-motor
-person
-rider
-truck
+Cracks
+DrainCoversDamaged
+Potholes
+RianWaterCollection
