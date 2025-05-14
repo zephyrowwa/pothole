@@ -54,7 +54,7 @@ def draw_boxes(image, boxes):
 
     return image
 
-st.title('yolo 11 vehicle and pedestrian detection app')
+st.title('yolo 11 watchout for the pothole')
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
